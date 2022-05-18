@@ -1,4 +1,4 @@
-from api.videotools import VideoTools
+from api.videotools import FileIO
 
 
-vt = VideoTools('bug.mp4', '/tmp')
+vt = FileIO('Pipfile', '/tmp')
